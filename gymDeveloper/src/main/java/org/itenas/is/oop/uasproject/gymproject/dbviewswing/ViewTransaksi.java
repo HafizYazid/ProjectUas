@@ -240,9 +240,9 @@ public class ViewTransaksi extends javax.swing.JFrame {
     try {
         // Ambil nilai nama, tanggal pendaftaran, dan tanggal expired dari text field
         String namaPengguna = txtNama.getText().trim();
-        String tanggalPendaftaran = txtMasaAktif.getText().trim();
+        LocalDate tanggalPendaftaran = LocalDate.now();
 
-        if (namaPengguna.isEmpty() || tanggalPendaftaran.isEmpty()) {
+        if (namaPengguna.isEmpty()) {
             JOptionPane.showMessageDialog(this, "Harap lengkapi data yang diperlukan!", 
                                           "Warning", JOptionPane.WARNING_MESSAGE);
             return;
