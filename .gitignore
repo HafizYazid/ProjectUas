@@ -24,3 +24,4 @@ hs_err_pid*
 replay_pid*
 /GymDeveloper/target/
 .DS_Store
+/gymDeveloper/target/

@@ -171,7 +171,7 @@ public class ViewPenghasilanOwner extends javax.swing.JFrame {
 
         panelNavbar.setBackground(new java.awt.Color(204, 204, 204));
 
-        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO\\Documents\\PBO\\PROJECT_UAS\\Img\\Fitness-Gym-logo-design-template-on-transparent-background-PNG__1_-removebg-preview (2).png")); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO\\Documents\\PBO\\PROJECT_UAS\\GymDeveloper\\ProjectUas\\gymDeveloper\\src\\main\\java\\org\\itenas\\is\\oop\\uasproject\\gymproject\\Img\\Fitness-Gym-logo-design-template-on-transparent-background-PNG__1_-removebg-preview (2).png")); // NOI18N
 
         btnDataMenu.setBackground(new java.awt.Color(153, 153, 153));
         btnDataMenu.setText("DATA MENU");
@@ -194,7 +194,7 @@ public class ViewPenghasilanOwner extends javax.swing.JFrame {
         });
 
         jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO\\Documents\\PBO\\PROJECT_UAS\\Img\\logout (1).png")); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO\\Documents\\PBO\\PROJECT_UAS\\GymDeveloper\\ProjectUas\\gymDeveloper\\src\\main\\java\\org\\itenas\\is\\oop\\uasproject\\gymproject\\Img\\logout (1).png")); // NOI18N
         jLabel14.setText("LogOut");
 
         javax.swing.GroupLayout panelNavbarLayout = new javax.swing.GroupLayout(panelNavbar);

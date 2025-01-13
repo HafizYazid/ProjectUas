@@ -134,10 +134,10 @@ public class ViewMenuOwner extends javax.swing.JFrame {
 
         panelNavbar13.setBackground(new java.awt.Color(204, 204, 204));
 
-        jLabel40.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO\\Documents\\PBO\\PROJECT_UAS\\Img\\Fitness-Gym-logo-design-template-on-transparent-background-PNG__1_-removebg-preview (2).png")); // NOI18N
+        jLabel40.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO\\Documents\\PBO\\PROJECT_UAS\\GymDeveloper\\ProjectUas\\gymDeveloper\\src\\main\\java\\org\\itenas\\is\\oop\\uasproject\\gymproject\\Img\\Fitness-Gym-logo-design-template-on-transparent-background-PNG__1_-removebg-preview (2).png")); // NOI18N
 
         btnlogout.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        btnlogout.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO\\Documents\\PBO\\PROJECT_UAS\\Img\\logout (1).png")); // NOI18N
+        btnlogout.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO\\Documents\\PBO\\PROJECT_UAS\\GymDeveloper\\ProjectUas\\gymDeveloper\\src\\main\\java\\org\\itenas\\is\\oop\\uasproject\\gymproject\\Img\\logout (1).png")); // NOI18N
         btnlogout.setText("LogOut");
         btnlogout.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {

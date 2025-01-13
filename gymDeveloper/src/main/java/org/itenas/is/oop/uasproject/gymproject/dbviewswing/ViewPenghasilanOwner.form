@@ -286,7 +286,7 @@
             <Component class="javax.swing.JLabel" name="jLabel12">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\LENOVO\Documents\PBO\PROJECT_UAS\Img\Fitness-Gym-logo-design-template-on-transparent-background-PNG__1_-removebg-preview (2).png"/>
+                  <Image iconType="2" name="C:\Users\LENOVO\Documents\PBO\PROJECT_UAS\GymDeveloper\ProjectUas\gymDeveloper\src\main\java\org\itenas\is\oop\uasproject\gymproject\Img\Fitness-Gym-logo-design-template-on-transparent-background-PNG__1_-removebg-preview (2).png"/>
                 </Property>
               </Properties>
             </Component>
@@ -326,7 +326,7 @@
                   <Font name="Segoe UI" size="12" style="1"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\LENOVO\Documents\PBO\PROJECT_UAS\Img\logout (1).png"/>
+                  <Image iconType="2" name="C:\Users\LENOVO\Documents\PBO\PROJECT_UAS\GymDeveloper\ProjectUas\gymDeveloper\src\main\java\org\itenas\is\oop\uasproject\gymproject\Img\logout (1).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="LogOut"/>
               </Properties>
