@@ -22,7 +22,7 @@ public class ViewFormulirUser extends javax.swing.JFrame {
     }
     
     private void clearData(){
-        txtEmail.setText("");
+        txtNama.setText("");
         txtEmail.setText("");
         txtAlamat.setText("");
         txtNoHp.setText("");
@@ -51,6 +51,7 @@ public class ViewFormulirUser extends javax.swing.JFrame {
         txtAlamat = new javax.swing.JTextField();
         txtNoHp = new javax.swing.JTextField();
         labelnama5 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         labelnama.setText("Nama");
 
@@ -59,7 +60,7 @@ public class ViewFormulirUser extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
 
         txtEmail.setBackground(new java.awt.Color(204, 204, 204));
-        txtEmail.setForeground(new java.awt.Color(204, 204, 204));
+        txtEmail.setForeground(new java.awt.Color(255, 255, 255));
         txtEmail.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(0, 0, 0)));
         txtEmail.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,7 +99,7 @@ public class ViewFormulirUser extends javax.swing.JFrame {
         );
 
         txtNama.setBackground(new java.awt.Color(204, 204, 204));
-        txtNama.setForeground(new java.awt.Color(204, 204, 204));
+        txtNama.setForeground(new java.awt.Color(255, 255, 255));
         txtNama.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(0, 0, 0)));
         txtNama.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -107,7 +108,7 @@ public class ViewFormulirUser extends javax.swing.JFrame {
         });
 
         txtAlamat.setBackground(new java.awt.Color(204, 204, 204));
-        txtAlamat.setForeground(new java.awt.Color(204, 204, 204));
+        txtAlamat.setForeground(new java.awt.Color(255, 255, 255));
         txtAlamat.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(0, 0, 0)));
         txtAlamat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -116,7 +117,7 @@ public class ViewFormulirUser extends javax.swing.JFrame {
         });
 
         txtNoHp.setBackground(new java.awt.Color(204, 204, 204));
-        txtNoHp.setForeground(new java.awt.Color(204, 204, 204));
+        txtNoHp.setForeground(new java.awt.Color(255, 255, 255));
         txtNoHp.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(0, 0, 0)));
         txtNoHp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -128,15 +129,24 @@ public class ViewFormulirUser extends javax.swing.JFrame {
         labelnama5.setForeground(new java.awt.Color(255, 255, 255));
         labelnama5.setText("Formulir Pendaftaran");
 
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO\\Documents\\PBO\\PROJECT_UAS\\GymDeveloper\\ProjectUas\\gymDeveloper\\src\\main\\java\\org\\itenas\\is\\oop\\uasproject\\gymproject\\Img\\logout (1).png")); // NOI18N
+        jLabel1.setText("BACK");
+        jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel1MouseClicked(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 66, Short.MAX_VALUE)
+                        .addGap(0, 60, Short.MAX_VALUE)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                                 .addComponent(labelnama5)
@@ -154,7 +164,8 @@ public class ViewFormulirUser extends javax.swing.JFrame {
                                     .addComponent(labelnama4))
                                 .addGap(64, 64, 64))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(106, 106, 106)
+                        .addComponent(jLabel1)
+                        .addGap(63, 63, 63)
                         .addComponent(btnSubmited, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))))
         );
@@ -185,6 +196,10 @@ public class ViewFormulirUser extends javax.swing.JFrame {
                 .addGap(34, 34, 34)
                 .addComponent(btnSubmited, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(24, 24, 24))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -210,10 +225,10 @@ public class ViewFormulirUser extends javax.swing.JFrame {
         try {
             // Buat objek DataPengguna
             DataPengguna pengguna = new DataPengguna();
-            pengguna.setNamaPengguna(txtEmail.getText().trim());
-            pengguna.setNoPengguna(txtNoHp.getText().trim());
+            pengguna.setNamaPengguna(txtNama.getText().trim());
             pengguna.setEmailPengguna(txtEmail.getText().trim());
             pengguna.setAlamatPengguna(txtAlamat.getText().trim());
+            pengguna.setNoPengguna(txtNoHp.getText().trim());
 
             // Validasi input
             if (pengguna.getNamaPengguna().isEmpty() || pengguna.getNoPengguna().isEmpty() ||
@@ -264,6 +279,13 @@ public class ViewFormulirUser extends javax.swing.JFrame {
     private void txtNoHpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNoHpActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtNoHpActionPerformed
+
+    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
+        // TODO add your handling code here:
+        new ViewLogIn().setVisible(true);
+        dispose();
+                
+    }//GEN-LAST:event_jLabel1MouseClicked
     
      /**
      * @param args the command line arguments
@@ -303,6 +325,7 @@ public class ViewFormulirUser extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private rojerusan.RSMaterialButtonRectangle btnSubmited;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JLabel labelnama;
